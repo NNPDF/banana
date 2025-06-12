@@ -22,3 +22,8 @@ jobs:
     uses: NNPDF/workflows/.github/workflows/python-poetry-tests.yml@v2
     with:
       python-version: "3.12"
+
+  py313:
+    uses: NNPDF/workflows/.github/workflows/python-poetry-tests.yml@v2
+    with:
+      python-version: "3.13"
