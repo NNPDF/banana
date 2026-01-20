@@ -3,11 +3,6 @@ name: unit tests
 on: push
 
 jobs:
-  py39:
-    uses: NNPDF/workflows/.github/workflows/python-poetry-tests.yml@v2
-    with:
-      python-version: "3.9"
-
   py310:
     uses: NNPDF/workflows/.github/workflows/python-poetry-tests.yml@v2
     with:
