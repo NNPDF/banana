@@ -8,6 +8,10 @@ This project does NOT adhere strictly to [Semantic Versioning](https://semver.or
 
 ## [Unreleased](https://github.com/NNPDF/banana/compare/v0.6.17...HEAD)
 
+### Changed
+
+- Drop support for Python 3.9
+
 ## [0.16.17](https://github.com/NNPDF/banana/compare/v0.6.16...v0.6.17) - 2026-01-20
 
 ### Added

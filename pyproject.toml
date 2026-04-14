@@ -25,7 +25,7 @@ include = ["src/banana/data/theory_template.yaml"]
 packages = [{ include = "banana", from = "src" }]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 ipython = "^8.1.0"
 SQLAlchemy = "^1.4.29"
 numpy = ">=1.26"
