@@ -7,13 +7,7 @@ name = "banana-hep"
 version = "0.0.0"
 description = "Benchmark QCD physics"
 readme = "README.md"
-authors = [
-  "Andrea Barontini <andrea.barontini@mi.infn.it>",
-  "Alessandro Candido <alessandro.candido@mi.infn.it>",
-  "Felix Hekhorn <felix.hekhorn@mi.infn.it>",
-  "Niccolò Laurenti <niccolo.laurenti@mi.infn.it>",
-  "Giacomo Magni <gmagni@nikhef.nl>",
-]
+authors = ["banana team"]
 repository = "https://github.com/N3PDF/banana"
 classifiers = [
   "Programming Language :: Python",
@@ -25,7 +19,7 @@ include = ["src/banana/data/theory_template.yaml"]
 packages = [{ include = "banana", from = "src" }]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 ipython = "^8.1.0"
 SQLAlchemy = "^1.4.29"
 numpy = ">=1.26"

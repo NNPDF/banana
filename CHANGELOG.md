@@ -11,6 +11,7 @@ This project does NOT adhere strictly to [Semantic Versioning](https://semver.or
 ### Changed
 
 - Drop support for Python 3.9
+- Drop support for Python 3.10
 
 ## [0.16.17](https://github.com/NNPDF/banana/compare/v0.6.16...v0.6.17) - 2026-01-20
 

@@ -8,5 +8,7 @@ on:
 jobs:
   publish:
     uses: NNPDF/workflows/.github/workflows/python-poetry-pypi.yml@v2
+    with:
+      python-version: "3.14"
     secrets:
       PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
