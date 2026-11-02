@@ -45,7 +45,7 @@ optional = true
 [tool.poetry.group.test.dependencies]
 pytest = ">=9.0.3,<10.0"
 pytest-cov = "4.0.0"
-pylint = "^3.1.0"
+pylint = "^4.0.9"
 pyfakefs = "^5.2.3"
 scipy = "^1.11.1"
 
