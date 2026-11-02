@@ -6,14 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 This project does NOT adhere strictly to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), since we consider database changes non-breaking.
 
-## [Unreleased](https://github.com/NNPDF/banana/compare/v0.6.17...HEAD)
+## [Unreleased](https://github.com/NNPDF/banana/compare/v0.6.18...HEAD)
+
+## [0.6.18](https://github.com/NNPDF/banana/compare/v0.6.17...v0.6.18) - 2026-11-02
 
 ### Changed
 
 - Drop support for Python 3.9 [6b75bf4582bc426459f1a041a028f2c130e1c03d](https://github.com/NNPDF/banana/commit/6b75bf4582bc426459f1a041a028f2c130e1c03d)
 - Drop support for Python 3.10 [#82](https://github.com/NNPDF/banana/pull/82)
 
-## [0.16.17](https://github.com/NNPDF/banana/compare/v0.6.16...v0.6.17) - 2026-01-20
+## [0.6.17](https://github.com/NNPDF/banana/compare/v0.6.16...v0.6.17) - 2026-01-20
 
 ### Added
 - Add `PTO_matching` field, with default `None` [#79](https://github.com/NNPDF/banana/pull/79)
