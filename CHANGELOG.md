@@ -6,7 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 This project does NOT adhere strictly to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), since we consider database changes non-breaking.
 
-## [Unreleased](https://github.com/NNPDF/banana/compare/v0.6.17...HEAD)
+## [Unreleased](https://github.com/NNPDF/banana/compare/v0.6.18...HEAD)
+
+## [0.16.18](https://github.com/NNPDF/banana/compare/v0.6.17...v0.6.18) - 2026-11-02
 
 ### Changed
 
