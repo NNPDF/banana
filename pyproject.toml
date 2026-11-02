@@ -45,6 +45,7 @@ optional = true
 [tool.poetry.group.test.dependencies]
 pytest = ">=9.0.3,<10.0"
 pytest-cov = "4.0.0"
+pylint = "^3.1.0"
 pyfakefs = "^5.2.3"
 scipy = "^1.11.1"
 
@@ -64,6 +65,8 @@ files = ["src/banana/__init__.py"]
 coverage = "$BROWSER htmlcov/index.html"
 test = "pytest tests"
 test-cov = ["test", "coverage"]
+lint = "pylint src/**/*.py -E"
+lint-warnings = "pylint src/**/*.py --exit-zero"
 docs = { "shell" = "cd docs; make html" }
 docs-view = { "shell" = "cd docs; make view" }
 docs-server = { "shell" = "cd docs; make server" }
@@ -77,3 +80,22 @@ addopts = [
   '--cov-report=xml',
   '--strict-markers',
 ]
+
+[tool.pylint.master]
+# extensions not to check
+extension-pkg-whitelist = ["numpy", "lhapdf"]
+ignore-paths = ["benchmarks/", "docs/", "tests/"]
+# has to be 1 as pylint is NOT threadsafe
+jobs = 1
+[tool.pylint.messages_control]
+disable = ["invalid-name", "fixme"]
+[tool.pylint.reports]
+# Available formats are:
+# text, parseable, colorized, json and msvs (visual studio).
+output-format = "colorized"
+[tool.pylint.format]
+# Maximum number of characters on a single line.
+max-line-length = 100
+[tool.pylint.design]
+# Maximum number of arguments for function / method
+max-args = 10
